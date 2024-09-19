@@ -3,7 +3,12 @@ import { styled } from "@mui/material/styles";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import { profile } from "../types/User";
-import tempprofpic from "../assets/tempperson.png";
+
+import justin from "../assets/justin.jfif";
+import max from "../assets/max.jfif";
+import aidan from "../assets/aidan.jfif";
+import rhamsez from "../assets/rhamsez.jfif";
+import james from "../assets/james.jfif";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: "#fff",
@@ -58,28 +63,28 @@ const AboutUs = () => {
 
 const itemData: profile[] = [
   {
-    profilepic: tempprofpic,
+    profilepic: max,
     name: "Max Burdett",
     role: "Project Manager",
   },
   {
-    profilepic: tempprofpic,
+    profilepic: aidan,
     name: "Aidan Call",
     role: "Developer",
   },
   {
-    profilepic: tempprofpic,
+    profilepic: justin,
     name: "Justin Jantzi",
     role: "Lead Developer",
   },
 
   {
-    profilepic: tempprofpic,
+    profilepic: james,
     name: "James McGrawth",
     role: "Communnication Lead",
   },
   {
-    profilepic: tempprofpic,
+    profilepic: rhamsez,
     name: "Rhamsez Thevenin",
     role: "Project Manager",
   },

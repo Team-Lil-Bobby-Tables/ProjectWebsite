@@ -62,6 +62,7 @@ const panels = [
   },
   {
     header: "Process and Project Metrics",
+    content: <></>,
   },
   {
     header: "Weekly 4-Up (8/26 - 9/12)",
