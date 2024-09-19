@@ -175,7 +175,8 @@ function Navbar(props: userInfo) {
                 </Menu>
               </>
             ) : (
-              <Button sx={{ color: "white" }}>Login</Button>
+              <></>
+              // <Button sx={{ color: "white" }}>Login</Button>
             )}
           </Box>
         </Toolbar>
