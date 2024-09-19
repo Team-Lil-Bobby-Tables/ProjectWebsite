@@ -48,7 +48,7 @@ function Navbar(props: userInfo) {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{ backgroundColor: "#222" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -167,9 +167,7 @@ function Navbar(props: userInfo) {
                 </Menu>
               </>
             ) : (
-              <Button variant="outlined" sx={{ color: "white" }}>
-                Login
-              </Button>
+              <Button sx={{ color: "white" }}>Login</Button>
             )}
           </Box>
         </Toolbar>

@@ -5,7 +5,7 @@ export type userInfo {
   }
   
   export type profile {
-    username: string;
-    email: string;
+    name: string;
     role: string;
+    profilepic: string;
   }
