@@ -3,6 +3,7 @@ import { styled } from "@mui/material/styles";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import { profile } from "../types/User";
+import tempprofpic from "../assets/tempperson.png";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: "#fff",
@@ -57,28 +58,28 @@ const AboutUs = () => {
 
 const itemData: profile[] = [
   {
-    profilepic: "https://images.unsplash.com/photo-1533827432537-70133748f5c8",
+    profilepic: tempprofpic,
     name: "Max Burdett",
     role: "Project Manager",
   },
   {
-    profilepic: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
+    profilepic: tempprofpic,
     name: "Aidan Call",
     role: "Developer",
   },
   {
-    profilepic: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
+    profilepic: tempprofpic,
     name: "Justin Jantzi",
     role: "Lead Developer",
   },
 
   {
-    profilepic: "https://images.unsplash.com/photo-1522770179533-24471fcdba45",
+    profilepic: tempprofpic,
     name: "James McGrawth",
     role: "Communnication Lead",
   },
   {
-    profilepic: "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c",
+    profilepic: tempprofpic,
     name: "Rhamsez Thevenin",
     role: "Project Manager",
   },
