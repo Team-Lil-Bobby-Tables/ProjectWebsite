@@ -56,6 +56,33 @@ const panels = [
       />
     ),
   },
+  {
+    header: "Domain Model",
+    content: <></>,
+  },
+  {
+    header: "Process and Project Metrics",
+  },
+  {
+    header: "Weekly 4-Up (8/26 - 9/12)",
+    content: (
+      <iframe
+        src="https://docs.google.com/document/d/1Byz_RgSjFy7xspXEo0sSxj4WQUrx33t5/pub?embedded=true"
+        width={"80%"}
+        height={"800px"}
+      />
+    ),
+  },
+  {
+    header: "Weekly 4-Up (9/13 - 9/16)",
+    content: (
+      <iframe
+        src="https://docs.google.com/document/d/1Hy_-zFO5dXtrv6z0wtbLbEmhDml8QMec/pub?embedded=true"
+        width={"80%"}
+        height={"800px"}
+      />
+    ),
+  },
 ];
 
 export default function Artifacts() {
@@ -77,6 +104,7 @@ export default function Artifacts() {
             key={panel.header}
             expanded={expanded === panel.header}
             onChange={handleChange(panel.header)}
+            sx={{ marginBottom: "10px" }}
           >
             <AccordionSummary
               aria-controls={`${panel.header}d-content`}
