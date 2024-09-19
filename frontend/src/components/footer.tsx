@@ -14,6 +14,7 @@ const Footer = () => {
         textAlign: "center",
         display: "flex",
         zIndex: 100,
+        fontFamily: "monospace",
       }}
     >
       © 2024 Lil' Bobby Tables
