@@ -16,6 +16,7 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import { userInfo } from "../types/User";
+import logo from "../../public/favicon-32x32.png";
 
 const pages = ["About", "Artifacts", "Time Tracking"];
 const settings = ["Logout"];
@@ -51,22 +52,26 @@ function Navbar(props: userInfo) {
     <AppBar position="static" sx={{ backgroundColor: "#222", zIndex: 100 }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href=""
-            sx={{
-              mr: 2,
-              display: { xs: "none", md: "flex" },
-              fontFamily: "monospace",
-              fontWeight: 700,
-              color: "inherit",
-              textDecoration: "none",
-            }}
+          <div
+            style={{ display: "flex", cursor: "pointer" }}
+            onClick={() => (window.location.href = "/")}
           >
-            Lil' Bobby Tables
-          </Typography>
+            <img src={logo} alt="logo" style={{ marginRight: "15px" }} />
+            <Typography
+              variant="h6"
+              noWrap
+              sx={{
+                mr: 2,
+                display: { xs: "none", md: "flex" },
+                fontFamily: "monospace",
+                fontWeight: 700,
+                color: "inherit",
+                textDecoration: "none",
+              }}
+            >
+              Lil' Bobby Tables
+            </Typography>
+          </div>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton

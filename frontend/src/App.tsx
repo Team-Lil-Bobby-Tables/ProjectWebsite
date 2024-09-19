@@ -6,6 +6,7 @@ import Footer from "./components/footer";
 import { userInfo } from "./types/User";
 import { Container } from "@mui/material";
 import background from "./assets/background.png";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   const userInfo: userInfo = {
@@ -27,10 +28,22 @@ function App() {
           fontFamily: "monospace",
           overflowX: "hidden",
           zIndex: 5,
+          minHeight: "100vh",
         }}
       >
-        <AboutProject />
-        <AboutUs />
+        <BrowserRouter>
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <AboutProject />
+                  <AboutUs />
+                </>
+              }
+            />
+          </Routes>
+        </BrowserRouter>
       </Container>
       <Footer />
     </div>
