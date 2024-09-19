@@ -57,7 +57,7 @@ function Navbar(props: userInfo) {
         <Toolbar disableGutters>
           <div
             style={{ display: "flex", cursor: "pointer" }}
-            onClick={() => (window.location.href = "/")}
+            onClick={() => nav("/")}
           >
             <img src={logo} alt="logo" style={{ marginRight: "15px" }} />
             <Typography
@@ -104,10 +104,7 @@ function Navbar(props: userInfo) {
               sx={{ display: { xs: "block", md: "none" } }}
             >
               {pages.map((page) => (
-                <MenuItem
-                  key={page}
-                  onClick={() => (window.location.href = "/" + page.trim())}
-                >
+                <MenuItem key={page} onClick={() => nav("/" + page.trim())}>
                   <Typography sx={{ textAlign: "center" }}>{page}</Typography>
                 </MenuItem>
               ))}
@@ -134,7 +131,7 @@ function Navbar(props: userInfo) {
             {pages.map((page) => (
               <Button
                 key={page}
-                onClick={() => (window.location.href = "/" + page.trim())}
+                onClick={() => nav("/" + page.trim())}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
                 {page}
