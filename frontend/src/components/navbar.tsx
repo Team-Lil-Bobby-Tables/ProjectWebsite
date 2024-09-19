@@ -16,9 +16,10 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import { userInfo } from "../types/User";
-import logo from "../../public/favicon-32x32.png";
+import logo from "../assets/favicon-32x32.png";
+import { useNavigate } from "react-router-dom";
 
-const pages = ["About", "Artifacts", "Time Tracking"];
+const pages = ["Artifacts", "Time Tracking"];
 const settings = ["Logout"];
 
 /**
@@ -47,6 +48,8 @@ function Navbar(props: userInfo) {
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
+
+  const nav = useNavigate();
 
   return (
     <AppBar position="static" sx={{ backgroundColor: "#222", zIndex: 100 }}>
@@ -101,7 +104,10 @@ function Navbar(props: userInfo) {
               sx={{ display: { xs: "block", md: "none" } }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
+                <MenuItem
+                  key={page}
+                  onClick={() => (window.location.href = "/" + page.trim())}
+                >
                   <Typography sx={{ textAlign: "center" }}>{page}</Typography>
                 </MenuItem>
               ))}
@@ -128,7 +134,7 @@ function Navbar(props: userInfo) {
             {pages.map((page) => (
               <Button
                 key={page}
-                onClick={handleCloseNavMenu}
+                onClick={() => (window.location.href = "/" + page.trim())}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
                 {page}
