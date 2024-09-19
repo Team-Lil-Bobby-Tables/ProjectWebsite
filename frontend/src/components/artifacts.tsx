@@ -50,8 +50,8 @@ const panels = [
     header: "Development Methodology Plan",
     content: (
       <iframe
-        src="https://docs.google.com/document/d/1cl36LWwWsst8z9o7ErjulRBYU1OqPAN1p6ZttlxgKjM"
-        width={"100%"}
+        src="https://docs.google.com/document/d/1cl36LWwWsst8z9o7ErjulRBYU1OqPAN1p6ZttlxgKjM/pub?embedded=true"
+        width={"80%"}
         height={"800px"}
       />
     ),
