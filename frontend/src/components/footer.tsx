@@ -3,7 +3,21 @@
  * @returns Footer component
  */
 const Footer = () => {
-  return <footer>This is the footer</footer>;
+  return (
+    <footer
+      style={{
+        width: "100%",
+        height: "50px",
+        backgroundColor: "#333",
+        alignItems: "center",
+        justifyContent: "center",
+        textAlign: "center",
+        display: "flex",
+      }}
+    >
+      © 2024 Lil' Bobby Tables
+    </footer>
+  );
 };
 
 export default Footer;
