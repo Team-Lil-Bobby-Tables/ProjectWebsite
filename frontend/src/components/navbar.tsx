@@ -104,7 +104,10 @@ function Navbar(props: userInfo) {
               sx={{ display: { xs: "block", md: "none" } }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={() => nav("/" + page.trim())}>
+                <MenuItem
+                  key={page}
+                  onClick={() => nav("/" + page.toLowerCase().replace(" ", ""))}
+                >
                   <Typography sx={{ textAlign: "center" }}>{page}</Typography>
                 </MenuItem>
               ))}
@@ -131,7 +134,7 @@ function Navbar(props: userInfo) {
             {pages.map((page) => (
               <Button
                 key={page}
-                onClick={() => nav("/" + page.trim())}
+                onClick={() => nav("/" + page.toLowerCase().replace(" ", ""))}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
                 {page}

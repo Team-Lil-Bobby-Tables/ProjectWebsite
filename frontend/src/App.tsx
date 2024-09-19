@@ -8,6 +8,7 @@ import { Container } from "@mui/material";
 import background from "./assets/background.png";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Artifacts from "./components/artifacts";
+import Timetrack from "./components/timetrack";
 
 function App() {
   const userInfo: userInfo = {
@@ -44,6 +45,7 @@ function App() {
                 </>
               }
             />
+            <Route path="/timetracking" element={<Timetrack />} />
             <Route path="/artifacts" element={<Artifacts />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
