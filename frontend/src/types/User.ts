@@ -8,4 +8,5 @@ export type userInfo {
     name: string;
     role: string;
     profilepic: string;
+    linkedin: string;
   }

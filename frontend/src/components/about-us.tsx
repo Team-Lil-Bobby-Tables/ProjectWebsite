@@ -41,7 +41,9 @@ const AboutUs = () => {
                   animationDelay: `${i * 0.1}s`,
                   animationFillMode: "forwards",
                   overflow: "hidden",
+                  cursor: "pointer",
                 }}
+                onClick={() => window.open(item.linkedin, "_blank")}
               >
                 <img
                   srcSet={`${item.profilepic}?w=212&fit=crop&auto=format&dpr=2 2x`}
@@ -66,27 +68,32 @@ const itemData: profile[] = [
     profilepic: max,
     name: "Max Burdett",
     role: "Project Manager",
+    linkedin: "https://www.linkedin.com/in/max-burdett",
   },
   {
     profilepic: aidan,
     name: "Aidan Call",
     role: "Developer",
+    linkedin: "https://www.linkedin.com/in/aidan-call",
   },
   {
     profilepic: justin,
     name: "Justin Jantzi",
     role: "Lead Developer",
+    linkedin: "https://www.linkedin.com/in/justinjantzi",
   },
 
   {
     profilepic: james,
     name: "James McGrawth",
     role: "Communnication Lead",
+    linkedin: "https://www.linkedin.com/in/james-mcgrath-9401081ba",
   },
   {
     profilepic: rhamsez,
     name: "Rhamsez Thevenin",
     role: "Project Manager",
+    linkedin: "https://www.linkedin.com/in/rhamzthev",
   },
 ];
 
