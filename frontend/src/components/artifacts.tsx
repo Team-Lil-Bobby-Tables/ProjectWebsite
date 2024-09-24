@@ -58,11 +58,23 @@ const panels = [
   },
   {
     header: "Domain Model",
-    content: <></>,
+    content: (
+      <iframe
+        src="https://docs.google.com/document/d/1larUUWAiFG9_0kGvkl4L8KNNdoWC_fBImo_wpswhSXU/pub?embedded=true"
+        width={"80%"}
+        height={"800px"}
+      ></iframe>
+    ),
   },
   {
     header: "Process and Project Metrics",
-    content: <></>,
+    content: (
+      <iframe
+        src="https://docs.google.com/document/d/1KfJzmIV2O8h2mZQKeufccHHSZfveQ4J5VYYurrMHLIY/pub?embedded=true"
+        width={"80%"}
+        height={"800px"}
+      ></iframe>
+    ),
   },
   {
     header: "Weekly 4-Up (8/26 - 9/12)",
