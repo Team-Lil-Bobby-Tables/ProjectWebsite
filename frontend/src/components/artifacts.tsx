@@ -87,7 +87,7 @@ const panels = [
     ),
   },
   {
-    header: "Weekly 4-Up (9/13 - 9/16)",
+    header: "Weekly 4-Up (9/13 - 9/17)",
     content: (
       <iframe
         src="https://docs.google.com/document/d/1Hy_-zFO5dXtrv6z0wtbLbEmhDml8QMec/pub?embedded=true"
@@ -95,7 +95,57 @@ const panels = [
         height={"800px"}
       />
     ),
-  },
+  }, 
+  {
+    header: "Weekly 4-Up (9/18 - 9/24)",
+    content: (
+      <iframe
+        src="https://docs.google.com/document/d/e/2PACX-1vQU1z_-2CXBiHhxxnmE2fwv_a6qnc9JPes2UOoEKeCcM2jrp9RnJvtT5pZhyLC4fQ/pub?embedded=true"
+        width={"80%"}
+        height={"800px"}
+      />
+    ),
+  }, 
+  {
+    header: "Weekly 4-Up (9/25 - 10/1)",
+    content: (
+      <iframe
+        src="https://docs.google.com/document/d/e/2PACX-1vQ58y8mO7N2TFGZqZbVyTFIQ_IAPzTzF22XwO__Q6se5mqYIKj4WIZe7qwxGxWnhA/pub?embedded=true"
+        width={"80%"}
+        height={"800px"}
+      />
+    ),
+  }, 
+  {
+    header: "Weekly 4-Up (10/1 - 10/8)",
+    content: (
+      <iframe
+        src="https://docs.google.com/document/d/e/2PACX-1vQI2VvAkWS_iYWgpJMNYoBTfQKZ8NdERnGJySeX6yxv_KIbOmstwYhbSinBxSeYcA/pub?embedded=true"
+        width={"80%"}
+        height={"800px"}
+      />
+    ),
+  }, 
+  {
+    header: "Weekly 4-Up (10/8 - 10/15)",
+    content: (
+      <iframe
+        src="https://docs.google.com/document/d/e/2PACX-1vTRa0i-a7ARtWegHXGCci78kLE3q5sYlKtZ007eBhN8sZQjH3wjzLdsjY1lh-pbnQ/pub?embedded=true"
+        width={"80%"}
+        height={"800px"}
+      />
+    ),
+  }, 
+  {
+    header: "Weekly 4-Up (10/15 - 10/22)",
+    content: (
+      <iframe
+        src="https://docs.google.com/document/d/e/2PACX-1vTLqPQ9CScu8GNSFFucAokaUtitlyFpe9jDUyTBa5ciJfmolsJeJcZmJle1b34uKQ/pub?embedded=true"
+        width={"80%"}
+        height={"800px"}
+      />
+    ),
+  }, 
 ];
 
 export default function Artifacts() {
