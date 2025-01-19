@@ -19,9 +19,16 @@ const AboutProject = () => {
           justifyContent: "center",
         }}
       >
-        <a href="https://educe.club" target="_blank">
+        {/* <a href="https://educe.club" target="_blank">
           <img src={educe} width={"600"} />
-        </a>
+        </a> */}
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/X4RLg6RJgSs?si=sJVzKYNa5plYRl24&amp;start=796"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        ></iframe>
         <div>
           <p>
             Educe is an application for growing knowledge through connecting

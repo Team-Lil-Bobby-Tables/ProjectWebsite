@@ -17,7 +17,7 @@ const Footer = () => {
         fontFamily: "monospace",
       }}
     >
-      © 2024 Lil' Bobby Tables
+      © 2025 Lil' Bobby Tables
     </footer>
   );
 };

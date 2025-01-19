@@ -95,7 +95,7 @@ const panels = [
         height={"800px"}
       />
     ),
-  }, 
+  },
   {
     header: "Weekly 4-Up (9/18 - 9/24)",
     content: (
@@ -105,7 +105,7 @@ const panels = [
         height={"800px"}
       />
     ),
-  }, 
+  },
   {
     header: "Weekly 4-Up (9/25 - 10/1)",
     content: (
@@ -115,7 +115,7 @@ const panels = [
         height={"800px"}
       />
     ),
-  }, 
+  },
   {
     header: "Weekly 4-Up (10/1 - 10/8)",
     content: (
@@ -125,7 +125,7 @@ const panels = [
         height={"800px"}
       />
     ),
-  }, 
+  },
   {
     header: "Weekly 4-Up (10/8 - 10/15)",
     content: (
@@ -135,7 +135,7 @@ const panels = [
         height={"800px"}
       />
     ),
-  }, 
+  },
   {
     header: "Weekly 4-Up (10/15 - 10/22)",
     content: (
@@ -145,7 +145,77 @@ const panels = [
         height={"800px"}
       />
     ),
-  }, 
+  },
+  {
+    header: "Weekly 4-Up (10/29 - 11/5)",
+    content: (
+      <iframe
+        src="https://docs.google.com/document/d/e/2PACX-1vROKDVf1cdLNAWxVqc0s_n4h_WoQgVvgh01BLUxafOmomEkAXKwrTOtxg8IsVRPNQ/pub?embedded=true"
+        width={"80%"}
+        height={"800px"}
+      />
+    ),
+  },
+  {
+    header: "Weekly 4-Up (11/5 - 11/12)",
+    content: (
+      <iframe
+        src="https://docs.google.com/document/d/e/2PACX-1vSeJ_QZT7Xtk_uC7UJ8RVVr9CfSyc7v4ozB4ctUjnvBdwbWB6Ye3F8hrPJhS3EpiQ/pub?embedded=true"
+        width={"80%"}
+        height={"800px"}
+      />
+    ),
+  },
+  {
+    header: "Weekly 4-Up (11/13 - 11/19)",
+    content: (
+      <iframe
+        src="https://docs.google.com/document/d/e/2PACX-1vTRIJZ7cE1G_WbgHSfpTYuqz-ZhtSmo5M3a4hyEPPBbH9xY8j9tE45M_6kEbYh42w/pub?embedded=true"
+        width={"80%"}
+        height={"800px"}
+      />
+    ),
+  },
+  {
+    header: "Weekly 4-Up (11/26 - 12/3)",
+    content: (
+      <iframe
+        src="https://docs.google.com/document/d/e/2PACX-1vSHOC4p7VDLomeSzeGkq4eyN4AEZivj5KVJXWaWwsI1CpX68VI6OsB1kUcxjxwrsQ/pub?embedded=true"
+        width={"80%"}
+        height={"800px"}
+      />
+    ),
+  },
+  {
+    header: "Weekly 4-Up (12/3 - 12/10)",
+    content: (
+      <iframe
+        src="https://docs.google.com/document/d/e/2PACX-1vRNMjPFmwIFuWdxE2M3kdQDVf6Hm7X_CQuCWJB7WAf9N29596tc9_Zz7tiKuo2lvA/pub?embedded=true"
+        width={"80%"}
+        height={"800px"}
+      />
+    ),
+  },
+  {
+    header: "Weekly 4-Up (1/14 - 1/21)",
+    content: (
+      <iframe
+        src="https://docs.google.com/document/d/e/2PACX-1vSKfTzw9uyMuS6LVKYVxn3Vo0kXJi3FJ4m4NQ9ntO-QTeadnEtUDG82M_hC8LFUmA/pub?embedded=true"
+        width={"80%"}
+        height={"800px"}
+      />
+    ),
+  },
+  {
+    header: "First End-Of-Term Self-Evaluation",
+    content: (
+      <iframe
+        src="https://docs.google.com/document/d/e/2PACX-1vQydkI1_nqJGilmDKW752ce2FN-vMN0T9AgL4VYyQ90402WDiNk-F3Gm3NkDSnWRQ/pub?embedded=true"
+        width={"80%"}
+        height={"800px"}
+      />
+    ),
+  },
 ];
 
 export default function Artifacts() {
